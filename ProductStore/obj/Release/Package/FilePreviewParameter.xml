@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="webapppartb" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ticio\\Documents\\Visual\ Studio\ 2015\\Projects\\ProductStore\\ProductStore\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ticio\\Documents\\Visual\ Studio\ 2015\\Projects\\ProductStore\\ProductStore\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="webapppartb/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ticio\\Documents\\Visual\ Studio\ 2015\\Projects\\ProductStore\\ProductStore\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="AzureWebJobsDashboard-Web.config Connection String" description="" value="DefaultEndpointsProtocol=https;AccountName=qmastor250417;AccountKey=dpK+E58oAaGSmCMiwpRCRUE66Dl6xyLhDz0eBDQIjRr1FjM+xY0R1SnSmFhlo0AEpVb0z5ZsgtOyawl150Mk2g==;EndpointSuffix=core.windows.net" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ticio\\Documents\\Visual\ Studio\ 2015\\Projects\\ProductStore\\ProductStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsDashboard']/@connectionString" />
+  </parameter>
+  <parameter name="AzureWebJobsStorage-Web.config Connection String" description="" value="DefaultEndpointsProtocol=https;AccountName=storagepartb;AccountKey=kaeYpJ+0WtM0/Pvibt2pIRQZdmR+LkuaK86hcZGFpM6oX8yJ6UTixh5rUpDwRlna7YLtZFAzUMGua4hhZOv3AA==;EndpointSuffix=core.windows.net" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ticio\\Documents\\Visual\ Studio\ 2015\\Projects\\ProductStore\\ProductStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AzureWebJobsStorage']/@connectionString" />
+  </parameter>
+</parameters>
